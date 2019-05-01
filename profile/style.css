@@ -1,0 +1,101 @@
+h1{
+  color: #845EC2;
+  font-size: 40px;
+  font-family: 'Raleway', sans-serif;
+
+}
+
+h2{
+  color: #008F7A;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+  font-weight: 500;
+}
+
+a:hover {
+  color: #0089BA;
+  text-decoration: none;
+}
+
+body{
+  background: #B0A8B9;
+  line-height: 1.5;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+}
+
+.container{
+  width: 700px;
+  margin: 40px auto;
+}
+
+.FB{
+  border-radius: 50%
+}
+
+.card{
+  background-color:  white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1)
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.list-inline i {
+    font-size: 50px;
+    color: rgb(230, 230, 230);
+    list-style: none;
+    padding-left: 0px;
+    }
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  font-size: 20px;
+}
+
+div {
+    display: block;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+
+html{
+  margin-right: 362px;
+  margin-left: 362px;
+  margin-bottom: 40px;
+  margin-top:40px;
+  color: -internal-root-color;
+  display: block;
+}
+
+.btn-blue{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: #49beb7;
+    padding: 10px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+meta {
+    display: none;
+}
